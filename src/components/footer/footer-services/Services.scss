@@ -1,0 +1,13 @@
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+  &-title {
+    font-size: 21px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+  }
+}

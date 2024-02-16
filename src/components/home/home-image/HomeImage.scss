@@ -1,0 +1,11 @@
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  height: 100vh;
+  background-image: url(../../../assets/images/main.png);
+  background-size: cover;
+}

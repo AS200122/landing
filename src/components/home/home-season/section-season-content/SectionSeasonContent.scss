@@ -1,0 +1,28 @@
+.season {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+
+  &-gifts {
+    font-size: 35px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+  }
+
+  &-button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  &-button:hover {
+    color: #c7bc8b;
+    border: 2px solid #c7bc8b;
+  }
+}

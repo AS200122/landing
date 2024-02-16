@@ -1,0 +1,58 @@
+.sign-Up {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0 0 0 30px;
+
+  &-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    &-ahead {
+      font-size: 23px;
+      font-weight: bold;
+    }
+  }
+
+  &-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-input {
+      width: 290px;
+      height: 40px;
+      padding-left: 10px;
+      border: 1px solid #cecdcde0;
+      border-right: none;
+      outline: none;
+      letter-spacing: 1px;
+    }
+
+    &-button {
+      width: 100px;
+      height: 40px;
+      background-color: transparent;
+      color: gray;
+      border: 1px solid #cecdcde0;
+      border-left: none;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+  }
+
+  &-socIcons {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: 38px;
+  }
+}

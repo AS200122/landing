@@ -1,0 +1,36 @@
+.home-image-content {
+  padding: 280px 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  &-autumn {
+    font-size: 75px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  &-fall {
+    font-size: 18px;
+    color: white;
+  }
+
+  &-button {
+    width: 120px;
+    height: 45px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+
+  &-button:hover {
+    border: 2px solid #c7bc8b;
+    color: #c7bc8b;
+  }
+}

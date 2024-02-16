@@ -1,0 +1,52 @@
+.category {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+  &-shop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    &-category {
+      font-size: 30px;
+      font-family: "Cormorant Garamond", serif;
+    }
+
+    &-indule {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 20px;
+      font-style: italic;
+    }
+  }
+
+  &-products {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+
+    &-product {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 15px;
+
+      &-name {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.locations {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+
+  &-title {
+    font-size: 21px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+  }
+}

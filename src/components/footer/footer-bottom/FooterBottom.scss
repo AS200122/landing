@@ -1,0 +1,19 @@
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom-content {
+  padding: 50px 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 150px;
+
+  &-links {
+    @include flexCenter();
+    gap: 50px;
+    font-size: 14px;
+  }
+}

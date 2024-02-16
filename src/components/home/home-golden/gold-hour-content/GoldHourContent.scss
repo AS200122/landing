@@ -1,0 +1,65 @@
+.gold {
+  width: 70%;
+  height: 638px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 120px;
+  background-color: #0f0d0d;
+  padding-top: 60px;
+  padding-left: 80px;
+
+  &-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &-text {
+      color: white;
+      font-size: 14px;
+    }
+
+    &-dot {
+      width: 3px;
+      height: 3px;
+      background-color: white;
+      border-radius: 100%;
+    }
+  }
+
+  &-golden {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    &-during {
+      font-size: 35px;
+      color: white;
+      font-family: "Cormorant Garamond", serif;
+    }
+
+    &-lorem {
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    &-button {
+      width: 100px;
+      height: 40px;
+      border: 2px solid white;
+      color: white;
+      transition: 0.5s;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    &-button:hover {
+      color: #c7bc8b;
+      border: 2px solid #c7bc8b;
+    }
+  }
+}
